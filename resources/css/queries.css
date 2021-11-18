@@ -1,0 +1,95 @@
+/* Big tablets: 1024 to 1200px (widths smaller than 1140 row from the whole project) */
+@media screen and (max-width: 1200px) {
+    
+    .about_text_one { flex: 0 0 40%; }
+    .cover_img { height: 200px; }
+    .stories_sections_footer a { padding-top: 20px; }
+
+}
+
+ 
+/* Small tablets to big tablets: 768 to 1023 */
+@media screen and (max-width: 1023px) {
+
+    html, body { font-size: 18px; }
+    footer { padding: 30px 0 50px; }
+
+    .about_text_one { flex: 0 0 30%; }
+    .about_text_two { padding-left: 60px; }
+    .cover_img { height: 150px; }
+    .blog_posts_col_4 { padding: 5px 50px; }
+    .blog_cover_img { height: 150px; }
+    
+}
+
+    
+/* Phones to small tablets: 481 to 767 */
+@media screen and (max-width: 767px) {
+
+    body { font-size: 16px; }
+    header { background-attachment: scroll; }
+    
+    .nav_part_one, .nav_part_two { display: none; }
+    .nav_container { 
+        margin: 0 20px; 
+        width: auto;
+    }
+    
+    .nav_menu_icon { display: block; }
+    .nav_logo { height: 40px; }
+    .nav_search_icon { font-size: 150%; }
+
+
+    .aboutme_section { padding: 60px 0; }
+    .about_me_main { display: block; }
+    .about_text_one { padding-left: 10px;}
+    .about_text_two { padding: 20px 10px 0px; }
+
+
+    .stories_nav {
+        padding-top: 40px;
+        display: block;
+    }
+    .plus_icon { float: right; }
+    .stories_sort { padding: 10px 10px; }
+    .stories_see { display: block; }
+    .stories_see_one, .stories_see_two {
+        padding: 10px 10px;
+        border-bottom: 1px solid #9C9C9C;
+    }
+    .nav_arrow_icon { float: right; }
+
+    .stories_row {
+        display: block;
+        padding-bottom: 0px;
+    }
+    .stories_card { padding-bottom: 20px; }
+    .cover_img { height: 300px; }
+
+    .blog_posts_title, .blog_posts_footer { margin: 0 90px; }
+    .blog_post_card { padding: 0px; }
+    .post_par, .post_title { display: none; }
+    .blog_posts_col_4 { padding: 0px; }
+    .blog_cover_img { height: 200px; }
+
+
+    .footer_nav { display: block; }
+    .footer_nav li { 
+        padding-top: 15px; 
+        padding-left: 7px;
+    }
+    #copyrigth { padding-top: 30px; }
+
+}
+
+
+/* Phones: 320 to 480 */
+@media screen and (max-width: 480px) {
+
+    .cover_img { height: 150px; }
+    .blog_posts_title, .blog_posts_footer { margin: 0 10px; }
+    .blog_posts_col_4 { display: block; }
+    .blog_cover_img { height: 100px; }
+    
+}
+
