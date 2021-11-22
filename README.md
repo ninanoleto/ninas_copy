@@ -1,5 +1,7 @@
-# fakestory
+# Webpage clone
 
-This is a webpage I created early in my journey to solidify my knowledge in HTML sematics and CSS properties and structures.
+## About
+Basic clone of the first page of the magazine: http://wovenmagazine.com.
 
-I wanted to practice how to develop a responsive interface. For that, I chose to do a rough copy of the first page from the magazine: http://wovenmagazine.com.
+## Tech Stack
+Static webpage developed with a responsive interface, to solidify knowledge in HTML5 sematics and CSS3 properties and structures.
